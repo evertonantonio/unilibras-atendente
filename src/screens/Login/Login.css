@@ -1,7 +1,7 @@
 body{
   margin-top:100px;
 }
-div {
+.login-container {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
