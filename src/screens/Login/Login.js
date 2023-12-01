@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { auth } from '../../firebase';
 import { useNavigate } from 'react-router-dom';
+import Logo from '../../assets/Logo.png';
 import './Login.css'
+
 
 const Login = () => {
   const history = useNavigate();
@@ -20,6 +22,7 @@ const Login = () => {
 
   return (
     <div className="login-container">
+      <img src={Logo} alt="Logo"></img>
       <h2>Login</h2>
       <form onSubmit={handleLogin}>
         <label>Email:</label>

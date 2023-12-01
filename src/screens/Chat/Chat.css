@@ -7,7 +7,6 @@
 
 .messages {
   width: 100%;
-  max-width: 600px;
 }
 
 .message {
@@ -17,11 +16,34 @@
 }
 
 .sent {
-  background-color: #DCF8C6;
-  align-self: flex-end;
+  background-color: rgb(160, 188, 143);
+  width: 400px;
+  margin-left: 1010px;
 }
 
 .received {
   background-color: #E5E5EA;
-  align-self: flex-start;
+  width: 400px;
+  margin-left: 90px;
+}
+
+.inputMessage {
+  position: relative;
+  height: 30px;
+}
+
+.buttonMessage{
+  position: relative;
+  height: 45px;
+  width: 100px;
+}
+
+.message-inpu-container {
+  align-items: center;
+  margin-top: 500px;
+  background-color: #f2af58;
+  max-width: 500px;
+  border-radius: 15px;
+  padding: 20px;
+  position: fixed;
 }

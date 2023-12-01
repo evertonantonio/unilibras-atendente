@@ -44,14 +44,15 @@ const Chat = () => {
           </div>
         ))}
       </div>
-      <div className="message-input">
+      <div className="message-inpu-container">
         <input
+          className='inputMessage'
           type="text"
           placeholder="Digite sua mensagem..."
           value={newMessage}
           onChange={(e) => setNewMessage(e.target.value)}
         />
-        <button onClick={sendMessage}>Enviar</button>
+        <button onClick={sendMessage} className='buttonMessage' >Enviar</button>
       </div>
     </div>
   );
